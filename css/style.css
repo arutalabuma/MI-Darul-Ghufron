@@ -1204,7 +1204,7 @@ a:focus {
     height: auto; /* Ketinggian gambar akan otomatis menyesuaikan dengan lebar */
     width: 100%; /* Lebar gambar menyesuaikan lebar layar */
     object-position: center; /* Gambar tetap berada di tengah */
-    content: url('./Img/bg3.png'); /* Ganti dengan gambar versi mobile */
+    content: url('/img/bg3.png'); /* Ganti dengan gambar versi mobile */
     object-fit: cover;
   }
   /* Mengecilkan logo */
