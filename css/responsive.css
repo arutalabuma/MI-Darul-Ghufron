@@ -1,0 +1,226 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+  .hero_area {
+    min-height: auto;
+  }
+
+
+  .custom_nav-container .navbar-nav {
+    padding-top: 15px;
+  }
+
+
+  .custom_nav-container .navbar-nav .nav-item .nav-link {
+    padding: 5px 25px;
+    margin: 5px 0;
+  }
+
+  .slider_section .detail-box h1 {
+    font-size: 2.5rem;
+  }
+
+  .slider_section {
+    padding: 75px 0;
+  }
+
+  .slider_section .carousel_btn-box a {
+    position: unset;
+    transform: none;
+  }
+
+  .about_section .img-box img {
+    height: 100%;
+    width: auto;
+    min-width: 100%;
+  }
+}
+
+@media (max-width: 767px) {
+  .header_section .header_top .social_box {
+    display: none;
+  }
+
+  .header_section .header_top .contact_nav a span {
+    font-size: 15px;
+  }
+
+  .slider_section .detail-box {
+    text-align: center;
+  }
+
+  .slider_section .detail-box .btn-box {
+    justify-content: center;
+  }
+
+  .about_section .img-box {
+    margin-top: 45px;
+  }
+
+  .contact_section .form_container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .info_section .info_contact {
+    margin: 15px 0;
+  }
+
+  .info_section .row>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .info_section .info_main .rov>div {
+    margin-bottom: 25px;
+  }
+
+  .info_section .social_box {
+    margin-bottom: 25px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .header_section .header_top .contact_nav a span {
+    display: none;
+  }
+
+  .client_section .carousel-control-prev,
+  .client_section .carousel-control-next {
+    position: unset;
+    transform: none;
+  }
+
+  .carousel_btn-box {
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 480px) {}
+
+@media (max-width: 414px) {
+  .hero_bg_box img {
+    content: url('/Img/bg1.jpeg'); /* Ganti dengan gambar versi mobile */
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 376px) {}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1270px;
+  }
+}
+/* Responsif untuk tablet dan layar yang lebih kecil */
+@media (max-width: 992px) {
+  .contact_container {
+    flex-direction: column; /* Ubah layout dari horizontal ke vertikal */
+    align-items: center;
+  }
+
+  .contact_info, .contact_form {
+    width: 100%; /* Buat kedua kolom full width */
+    margin-bottom: 20px; /* Tambahkan margin bawah untuk pemisahan */
+  }
+}
+
+/* Responsif untuk layar ponsel */
+@media (max-width: 576px) {
+  .contact_info p {
+    font-size: 14px; /* Kecilkan ukuran teks untuk layar kecil */
+  }
+
+  .map-box iframe {
+    height: 250px; /* Sesuaikan tinggi peta untuk layar ponsel */
+  }
+
+  .contact_form form input, .contact_form form textarea {
+    padding: 8px; /* Kecilkan padding di input form */
+  }
+
+  .contact_form form button {
+    width: 100%; /* Tombol kirim memenuhi lebar layar pada ponsel */
+  }
+}
+/* Responsif untuk layar kecil */
+@media (max-width: 768px) {
+  .hero_bg_box {
+    background-attachment: scroll; /* Untuk mobile, gunakan scroll agar lebih responsif */
+  }
+  .hero_bg_box img {
+    object-fit: contain; /* Gambar disesuaikan agar seluruh gambar terlihat di layar kecil */
+    height: auto; /* Ketinggian gambar akan otomatis menyesuaikan dengan lebar */
+    width: 100%; /* Lebar gambar menyesuaikan lebar layar */
+    object-position: center; /* Gambar tetap berada di tengah */
+    content: url('/Img/bg3.png'); /* Ganti dengan gambar versi mobile */
+    object-fit: cover;
+  }
+  /* Mengecilkan logo */
+  .navbar-brand .logo-image {
+    height: 35px; /* Ukuran logo saat layar kecil */
+  }
+
+  /* Mengecilkan teks navbar */
+  .navbar-brand {
+    font-size: 18px; /* Ukuran teks navbar saat layar kecil */
+  }
+
+  /* Mengecilkan teks di hero section */
+  .centered_section .main-heading {
+    font-size: 28px; /* Ukuran teks heading saat layar kecil */
+  }
+
+  .centered_section .sub-heading {
+    font-size: 16px; /* Ukuran teks subheading saat layar kecil */
+  }
+
+  /* Mengecilkan logo di hero section */
+  .centered_section .center-logo {
+    height: 150px; /* Ukuran logo di hero section saat layar kecil */
+  }
+  .news_section .heading_container h2 {
+    font-size: 28px; /* Ukuran lebih kecil untuk judul */
+    text-align: center;
+    
+  }
+
+  .news_section .heading_container p {
+    font-size: 16px; /* Ukuran lebih kecil untuk paragraf */
+    text-align: center; /* Teks disejajarkan ke tengah */
+  }
+
+  .news_section .row {
+    display: flex;
+    flex-direction: column; /* Mengatur kolom agar ditumpuk secara vertikal */
+    align-items: center; /* Mengatur agar konten berada di tengah */
+  }
+
+  .news_section .news_container {
+    text-align: center; /* Teks dan gambar sejajar di tengah */
+    padding: 10px; /* Mengurangi padding untuk lebih kompak */
+  }
+
+  .news_section .news_container .image-box {
+    margin-bottom: 20px; /* Jarak antara gambar dan teks */
+  }
+
+  .news_section .news_container .image-box img {
+    max-width: 100%; /* Agar gambar tetap responsif */
+    height: auto; /* Mengatur agar gambar mengikuti proporsi asli */
+  }
+
+  .news_section .news_container .detail-box h5 {
+    font-size: 20px; /* Ukuran lebih kecil untuk judul berita */
+  }
+
+  .news_section .news_container .date-time {
+    font-size: 14px; /* Ukuran lebih kecil untuk tanggal dan waktu */
+  }
+}
+
