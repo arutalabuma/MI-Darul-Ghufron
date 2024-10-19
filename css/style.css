@@ -892,8 +892,9 @@ a:focus {
 
 
 .login-link {
-  margin-right: 10px;
+
   color: white;
+  text-align: center;
 }
 
 .signup-btn {
@@ -1267,6 +1268,28 @@ a:focus {
 
   .news_section .news_container .date-time {
     font-size: 14px; /* Ukuran lebih kecil untuk tanggal dan waktu */
+  }
+  .navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .login-signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    .login-link {
+      /* margin-right: 10px; */
+      color: white;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+
   }
 }
 
