@@ -105,7 +105,7 @@
 
 @media (max-width: 414px) {
   .hero_bg_box img {
-    content: url('/Img/bg1.jpeg'); /* Ganti dengan gambar versi mobile */
+    content: url('../images/bg3.png'); /* Ganti dengan gambar versi mobile */
     object-fit: cover;
   }
 }
